@@ -114,7 +114,7 @@ const App: React.FC = () => {
             {activeApp && (
                <button onClick={() => setActiveApp(null)} className="flex items-center space-x-2 px-4 py-2 bg-white/5 hover:bg-white/10 rounded-xl transition-all text-xs font-bold uppercase tracking-widest">
                   <Home className="w-4 h-4" />
-                  <span className="hidden sm:inline">Portail V1.0.2</span>
+                  <span className="hidden sm:inline">Portail V1.0.3</span>
                </button>
             )}
             <div className="text-right hidden sm:block border-l border-white/10 pl-4 ml-4">
